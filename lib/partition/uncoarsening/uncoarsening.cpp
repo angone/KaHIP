@@ -125,6 +125,7 @@ int uncoarsening::perform_uncoarsening_nodeseparator(const PartitionConfig & con
         PRINT(std::cout <<  "log> starting uncoarsening ---------------"  << std::endl;)
         PartitionConfig cfg     = config;
         graph_access * coarsest = hierarchy.get_coarsest();
+	q_graph qubo_graph = q_graph(*coarsest);
         quality_metrics qm;
         PRINT(std::cout << "log>" << "unrolling graph with " << coarsest->number_of_nodes() << std::endl;)
 

@@ -1,0 +1,966 @@
+The system is: Linux - 4.18.0-193.6.3.el8_2.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/aangone/vsp/KaHIP/build/CMakeFiles/3.17.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/aangone/vsp/KaHIP/build/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_03eae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03eae.dir/build.make CMakeFiles/cmTC_03eae.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03eae.dir/testCCompiler.c.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc    -o CMakeFiles/cmTC_03eae.dir/testCCompiler.c.o   -c /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_03eae
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03eae.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc      CMakeFiles/cmTC_03eae.dir/testCCompiler.c.o  -o cmTC_03eae 
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2b385/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b385.dir/build.make CMakeFiles/cmTC_2b385.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc   -v -o CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o   -c /software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs
+COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf
+Thread model: posix
+gcc version 9.3.0 (Spack GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1 -quiet -v /software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccY9M9oe.s
+GNU C17 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include"
+ignoring nonexistent directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include
+ /usr/local/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4c61c4cbd91de5ebb76e4e2431eba515
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o /tmp/ccY9M9oe.s
+GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-73.el8
+COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_2b385
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b385.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc     -v CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o  -o cmTC_2b385 
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs
+COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc
+COLLECT_LTO_WRAPPER=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf
+Thread model: posix
+gcc version 9.3.0 (Spack GCC) 
+COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b385' '-mtune=generic' '-march=x86-64'
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpfzBri.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -rpath /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2b385 /lib/../lib64/crt1.o /lib/../lib64/crti.o /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b385' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+    add: [/usr/local/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include;/usr/local/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_2b385/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b385.dir/build.make CMakeFiles/cmTC_2b385.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc   -v -o CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o   -c /software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs]
+  ignore line: [COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Spack GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1 -quiet -v /software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccY9M9oe.s]
+  ignore line: [GNU C17 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include"]
+  ignore line: [ignoring nonexistent directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4c61c4cbd91de5ebb76e4e2431eba515]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o /tmp/ccY9M9oe.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-73.el8]
+  ignore line: [COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_2b385]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b385.dir/link.txt --verbose=1]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc     -v CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o  -o cmTC_2b385 ]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs]
+  ignore line: [COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Spack GCC) ]
+  ignore line: [COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b385' '-mtune=generic' '-march=x86-64']
+  link line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpfzBri.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -rpath /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2b385 /lib/../lib64/crt1.o /lib/../lib64/crti.o /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpfzBri.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2b385] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o] ==> ignore
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..]
+    arg [CMakeFiles/cmTC_2b385.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0;/lib64;/usr/lib64;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fc7b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc7b7.dir/build.make CMakeFiles/cmTC_fc7b7.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc7b7.dir/testCXXCompiler.cxx.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++     -o CMakeFiles/cmTC_fc7b7.dir/testCXXCompiler.cxx.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_fc7b7
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc7b7.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++       CMakeFiles/cmTC_fc7b7.dir/testCXXCompiler.cxx.o  -o cmTC_fc7b7 
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_61d8c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61d8c.dir/build.make CMakeFiles/cmTC_61d8c.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -v -o CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o -c /software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs
+COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf
+Thread model: posix
+gcc version 9.3.0 (Spack GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccq2QNEw.s
+GNU C++14 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include"
+ignoring nonexistent directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include
+ /usr/local/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9dfc14eebdf8518c547239f78d128a6a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccq2QNEw.s
+GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-73.el8
+COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_61d8c
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61d8c.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++      -v CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_61d8c 
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs
+COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++
+COLLECT_LTO_WRAPPER=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf
+Thread model: posix
+gcc version 9.3.0 (Spack GCC) 
+COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61d8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyct7Sv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -rpath /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_61d8c /lib/../lib64/crt1.o /lib/../lib64/crti.o /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61d8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+    add: [/usr/local/include]
+    add: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include/c++/9.3.0]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include/c++/9.3.0/x86_64-pc-linux-gnu]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include/c++/9.3.0/backward]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include/c++/9.3.0;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include/c++/9.3.0/x86_64-pc-linux-gnu;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include/c++/9.3.0/backward;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include;/usr/local/include;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_61d8c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61d8c.dir/build.make CMakeFiles/cmTC_61d8c.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -v -o CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o -c /software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs]
+  ignore line: [COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Spack GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccq2QNEw.s]
+  ignore line: [GNU C++14 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include"]
+  ignore line: [ignoring nonexistent directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 9dfc14eebdf8518c547239f78d128a6a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccq2QNEw.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-73.el8]
+  ignore line: [COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_61d8c]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61d8c.dir/link.txt --verbose=1]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++      -v CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_61d8c ]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs]
+  ignore line: [COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Spack GCC) ]
+  ignore line: [COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61d8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyct7Sv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -rpath /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_61d8c /lib/../lib64/crt1.o /lib/../lib64/crti.o /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccyct7Sv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_61d8c] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o] ==> ignore
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..]
+    arg [CMakeFiles/cmTC_61d8c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0;/lib64;/usr/lib64;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_FUNROLL_LOOPS succeeded with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_93dcc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93dcc.dir/build.make CMakeFiles/cmTC_93dcc.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93dcc.dir/src.cxx.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -DCOMPILER_SUPPORTS_FUNROLL_LOOPS -fPIE   -funroll-loops -std=c++11 -o CMakeFiles/cmTC_93dcc.dir/src.cxx.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_93dcc
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93dcc.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++   -DCOMPILER_SUPPORTS_FUNROLL_LOOPS    CMakeFiles/cmTC_93dcc.dir/src.cxx.o  -o cmTC_93dcc 
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_FNOSTACKLIMITS succeeded with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_430c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_430c1.dir/build.make CMakeFiles/cmTC_430c1.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_430c1.dir/src.cxx.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -DCOMPILER_SUPPORTS_FNOSTACKLIMITS -fPIE   -fno-stack-limit -std=c++11 -o CMakeFiles/cmTC_430c1.dir/src.cxx.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_430c1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_430c1.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++   -DCOMPILER_SUPPORTS_FNOSTACKLIMITS    CMakeFiles/cmTC_430c1.dir/src.cxx.o  -o cmTC_430c1 
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WALL succeeded with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_151bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_151bc.dir/build.make CMakeFiles/cmTC_151bc.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_151bc.dir/src.cxx.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -DCOMPILER_SUPPORTS_WALL -fPIE   -Wall -std=c++11 -o CMakeFiles/cmTC_151bc.dir/src.cxx.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_151bc
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_151bc.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++   -DCOMPILER_SUPPORTS_WALL    CMakeFiles/cmTC_151bc.dir/src.cxx.o  -o cmTC_151bc 
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_MARCH_NATIVE succeeded with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7d851/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d851.dir/build.make CMakeFiles/cmTC_7d851.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d851.dir/src.cxx.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -DCOMPILER_SUPPORTS_MARCH_NATIVE -fPIE   -march=native -std=c++11 -o CMakeFiles/cmTC_7d851.dir/src.cxx.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7d851
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d851.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++   -DCOMPILER_SUPPORTS_MARCH_NATIVE    CMakeFiles/cmTC_7d851.dir/src.cxx.o  -o cmTC_7d851 
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_FPERMISSIVE succeeded with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bcce9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bcce9.dir/build.make CMakeFiles/cmTC_bcce9.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bcce9.dir/src.cxx.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -DCOMPILER_SUPPORTS_FPERMISSIVE -fPIE   -fpermissive -std=c++11 -o CMakeFiles/cmTC_bcce9.dir/src.cxx.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bcce9
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcce9.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++   -DCOMPILER_SUPPORTS_FPERMISSIVE    CMakeFiles/cmTC_bcce9.dir/src.cxx.o  -o cmTC_bcce9 
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_UNUSED succeeded with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_286c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_286c9.dir/build.make CMakeFiles/cmTC_286c9.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_286c9.dir/src.cxx.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -DCOMPILER_SUPPORTS_UNUSED -fPIE   -Wno-unused-result -std=c++11 -o CMakeFiles/cmTC_286c9.dir/src.cxx.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_286c9
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_286c9.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++   -DCOMPILER_SUPPORTS_UNUSED    CMakeFiles/cmTC_286c9.dir/src.cxx.o  -o cmTC_286c9 
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_NOSIGNCOMP succeeded with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_daea5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_daea5.dir/build.make CMakeFiles/cmTC_daea5.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_daea5.dir/src.cxx.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -DCOMPILER_SUPPORTS_NOSIGNCOMP -fPIE   -Wno-sign-compare -std=c++11 -o CMakeFiles/cmTC_daea5.dir/src.cxx.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_daea5
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daea5.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++   -DCOMPILER_SUPPORTS_NOSIGNCOMP    CMakeFiles/cmTC_daea5.dir/src.cxx.o  -o cmTC_daea5 
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ee4b3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee4b3.dir/build.make CMakeFiles/cmTC_ee4b3.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc   -fopenmp -v -fPIE   -o CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o   -c /home/aangone/vsp/KaHIP/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs
+COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf
+Thread model: posix
+gcc version 9.3.0 (Spack GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1 -quiet -v -D_REENTRANT /home/aangone/vsp/KaHIP/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o -version -fopenmp -fPIE -o /tmp/ccaBtHSQ.s
+GNU C17 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include"
+ignoring nonexistent directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include
+ /usr/local/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4c61c4cbd91de5ebb76e4e2431eba515
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o /tmp/ccaBtHSQ.s
+GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-73.el8
+COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_ee4b3
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee4b3.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc  -fopenmp -v    CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o  -o cmTC_ee4b3  -v 
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs
+COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc
+COLLECT_LTO_WRAPPER=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf
+Thread model: posix
+gcc version 9.3.0 (Spack GCC) 
+COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ee4b3' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8PNMAT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -rpath /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ee4b3 /lib/../lib64/crt1.o /lib/../lib64/crti.o /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ee4b3' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_ee4b3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee4b3.dir/build.make CMakeFiles/cmTC_ee4b3.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc   -fopenmp -v -fPIE   -o CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o   -c /home/aangone/vsp/KaHIP/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs]
+  ignore line: [COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Spack GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1 -quiet -v -D_REENTRANT /home/aangone/vsp/KaHIP/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o -version -fopenmp -fPIE -o /tmp/ccaBtHSQ.s]
+  ignore line: [GNU C17 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include"]
+  ignore line: [ignoring nonexistent directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4c61c4cbd91de5ebb76e4e2431eba515]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o /tmp/ccaBtHSQ.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-73.el8]
+  ignore line: [COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_ee4b3]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee4b3.dir/link.txt --verbose=1]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc  -fopenmp -v    CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o  -o cmTC_ee4b3  -v ]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs]
+  ignore line: [COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Spack GCC) ]
+  ignore line: [COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ee4b3' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8PNMAT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -rpath /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ee4b3 /lib/../lib64/crt1.o /lib/../lib64/crti.o /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8PNMAT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ee4b3] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o] ==> ignore
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..]
+    arg [CMakeFiles/cmTC_ee4b3.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0;/lib64;/usr/lib64;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8b21a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b21a.dir/build.make CMakeFiles/cmTC_8b21a.dir/build
+gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -fopenmp -v -fPIE   -std=c++11 -o CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs
+COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf
+Thread model: posix
+gcc version 9.3.0 (Spack GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/aangone/vsp/KaHIP/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o -std=c++11 -version -fopenmp -fPIE -o /tmp/cc15xoiY.s
+GNU C++11 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include"
+ignoring nonexistent directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include
+ /usr/local/include
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++11 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9dfc14eebdf8518c547239f78d128a6a
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o /tmp/cc15xoiY.s
+GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-73.el8
+COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_8b21a
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b21a.dir/link.txt --verbose=1
+/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++   -fopenmp -v    CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o  -o cmTC_8b21a  -v 
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs
+COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++
+COLLECT_LTO_WRAPPER=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf
+Thread model: posix
+gcc version 9.3.0 (Spack GCC) 
+COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8b21a' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm50kvX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -rpath /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8b21a /lib/../lib64/crt1.o /lib/../lib64/crti.o /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8b21a' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_8b21a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b21a.dir/build.make CMakeFiles/cmTC_8b21a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/aangone/vsp/KaHIP/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++    -fopenmp -v -fPIE   -std=c++11 -o CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o -c /home/aangone/vsp/KaHIP/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs]
+  ignore line: [COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Spack GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/aangone/vsp/KaHIP/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o -std=c++11 -version -fopenmp -fPIE -o /tmp/cc15xoiY.s]
+  ignore line: [GNU C++11 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include"]
+  ignore line: [ignoring nonexistent directory "/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++11 (Spack GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 9dfc14eebdf8518c547239f78d128a6a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o /tmp/cc15xoiY.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-73.el8]
+  ignore line: [COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_8b21a]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/cmake-3.17.3-3bmddqa2rihg4wv3x55bwjyhu6g4pciv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b21a.dir/link.txt --verbose=1]
+  ignore line: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++   -fopenmp -v    CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o  -o cmTC_8b21a  -v ]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/specs]
+  ignore line: [COLLECT_GCC=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /tmp/root/spack-stage/spack-stage-gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/spack-src/configure --prefix=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --with-mpfr=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpfr-3.1.6-xxqg4byunkwjvaqpcq5b32ozaefiuh6v --with-gmp=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt --with-system-zlib --with-mpc=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/mpc-1.1.0-ixvukbloovvifz33fni6ntt4w3cgrqws --with-isl=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/isl-0.20-w5pcwe42wdz5gp6e2wyzjmpwagjlahkf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Spack GCC) ]
+  ignore line: [COMPILER_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib/:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8b21a' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm50kvX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -rpath /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8b21a /lib/../lib64/crt1.o /lib/../lib64/crti.o /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64 -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib -L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccm50kvX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib:/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8b21a] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o] ==> ignore
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+    arg [-L/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..]
+    arg [CMakeFiles/cmTC_8b21a.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64/../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+  collapse library dir [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib64;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib/gcc/x86_64-pc-linux-gnu/9.3.0;/lib64;/usr/lib64;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/openmpi-4.0.3-pncrqo3qrs323qe3lwg6pohfvix3xdha/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/libxml2-2.9.10-mfobbkw2olvwmlhdwdptm5acrqc5uit6/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gcc-9.3.0-s4u74h7rdafctph4bcbuaemterx5zhzc/lib;/software/spackages/linux-centos8-x86_64/gcc-8.3.1/gmp-6.1.2-xnvwezldcu24sfirvnxofk6t6ate6fkt/lib]
+  implicit fwks: []
+
+

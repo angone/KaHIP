@@ -181,6 +181,9 @@ class graph_access {
                 NodeID number_of_nodes();
                 EdgeID number_of_edges();
 
+                std::vector<Node> get_node_list();
+                std::vector<Edge> get_edge_list();
+
                 EdgeID get_first_edge(NodeID node);
                 EdgeID get_first_invalid_edge(NodeID node);
 
@@ -249,8 +252,6 @@ inline void graph_access::set_contraction_offset(NodeID node, NodeWeight offset)
         graphref->m_contraction_offset[node] = offset;
 }
 
-
-
 /* graph build methods */
 inline void graph_access::start_construction(NodeID nodes, EdgeID edges) {
         graphref->start_construction(nodes, edges);
@@ -275,6 +276,14 @@ inline NodeID graph_access::number_of_nodes() {
 
 inline EdgeID graph_access::number_of_edges() {
         return graphref->number_of_edges();
+}
+
+inline std::vector<Node> graph_access::get_node_list(){
+        return graphref->m_nodes;
+}
+
+inline std::vector<Edge> graph_access::get_edge_list(){
+        return graphref->m_edges;
 }
 
 inline void graph_access::resizeSecondPartitionIndex(unsigned no_nodes) {

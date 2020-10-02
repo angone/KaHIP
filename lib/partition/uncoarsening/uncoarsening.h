@@ -10,6 +10,7 @@
 
 #include "data_structure/graph_hierarchy.h"
 #include "partition_config.h"
+#include "data_structure/q_graph.h"
 
 class uncoarsening {
 public:
