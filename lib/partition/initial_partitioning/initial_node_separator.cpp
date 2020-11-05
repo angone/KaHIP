@@ -3,6 +3,9 @@
 // 
 
 #include <fstream>
+#include <iostream>
+#include <sstream>
+#include <string>
 #include "initial_node_separator.h"
 #include "graph_partitioner.h"
 #include "tools/quality_metrics.h"
@@ -87,5 +90,39 @@ void initial_node_separator::compute_node_separator( const PartitionConfig & con
         forall_nodes(G, node) {
                 G.setPartitionIndex(node, best_separator[node]);
         } endfor
+        
+        std::ofstream myfile;
+        myfile.open ("example");
+        myfile << G.number_of_nodes() << " " << G.number_of_edges()/2 << "\n";
+        
+        forall_nodes(G, node) {
+                EdgeID first = G.get_first_edge(node);
+                EdgeID end = G.get_first_invalid_edge(node);
+                for (EdgeID i = first; i < end; i++) {
+                    myfile << G.getEdgeTarget(i)+1 << " ";
+                }
+                myfile << "\n";
+        } endfor
+        myfile.close();
+    
+        system("python utils.py --path example");
+    
+        std::ifstream infile("coarsestvsp");
+        std::string line;
+        int counter = 0;
+        while (std::getline(infile, line))
+        {
+            std::istringstream iss(line);
+            
+            int a;
+            
+            if (!(iss >> a)) { break; } // error
+            //std::cout << "node " << counter << " in part " << a << std::endl;
+            G.setPartitionIndex(counter, a);
+            counter++;
+
+            // process separator
+        }
+
         
 }
